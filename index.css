@@ -137,12 +137,16 @@ h1 {
 blockquote {
     background-color: #E5E7EB;
     font-size: 36px;
-    font-style: italic;
+    font-style: italic ;
     color: #1F2937;
     padding-left: 193px;
     padding-right: 193px;
     padding-top: 119px;
     padding-bottom: 119px;
+}
+
+.part-2 img {
+    display: none;
 }
 
 blockquote span {
@@ -177,7 +181,7 @@ blockquote span {
 .call-action button {
     grid-column: 2;
     grid-row-start: 1;
-    grid-row-end:2 ;
+    grid-row-end: 3;
     background-color: #3b82f6;
     border: solid;
     border-color: white;
@@ -190,7 +194,7 @@ blockquote span {
     padding-bottom: 7px;
     color: white;
     font-size: 22px;
-    
+    height: 3rem;
 }
 
 footer {
@@ -222,6 +226,43 @@ footer span {
         margin-right: 1rem;
     }
     .headline {
-        
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+    .part-1 {
+        width: 90%;
+        padding: 1rem;
+    }
+    .part-2 {
+        width: 81%;
+    margin-bottom: 2rem;
+    padding: 0;
+    }
+    .random-information ul {
+        width: 58%;
+    }
+    .random-information ul li {
+        width: 100%;
+    }
+    h1 {
+        font-size: 39px;
+    }
+    blockquote {
+        font-size: 13px;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+    }
+    blockquote span {
+        font-size: 14px;
+    }
+    .call-action {
+        margin: 0;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
     }
 }
