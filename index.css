@@ -84,10 +84,10 @@ h1 {
     padding-left: 10px;
     padding-top: 4px;
     padding-bottom: 4px;
-    border-radius: 14px;
+    border-radius: 10px;
     border: none;
-    width: 86px;
-    height: 31px;
+    width: 120px;
+    height: 42px;
     color: white;
     font-weight: bold;
     background: #3b82f6;
@@ -131,7 +131,7 @@ h1 {
 .random-information h2 {
     font-size: 36px;
     color: #1F2937;
-    font-weight: 900;
+    font-weight: 1000;
 }
 
 blockquote {
@@ -271,5 +271,8 @@ footer span {
         padding-left: 1rem;
         padding-bottom: 1rem;
         padding-top: 1rem;
+    }
+    .random-information h2 {
+        font-size: 22px;
     }
 }
