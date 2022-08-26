@@ -52,7 +52,7 @@ header {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
-    
+    animation: text-color 2s ease;
 }
 
 .part-1 {
@@ -61,6 +61,20 @@ header {
     margin-right: 2rem;
 }
 
+@keyframes text-color {
+    0% {
+        color: transparent;
+    }
+    25% {
+        color: #e5e7eb52;
+    }
+    75% {
+        color: #e5e7eb81;
+    }
+    100% {
+        color: #e5e7eb;
+    }
+}
 .part-2 {
     grid-column: 2 ;
     display: flex;
@@ -204,6 +218,7 @@ blockquote span {
     height: 3rem;
 }
 
+
 footer {
     display: flex;
     align-items: center;
@@ -275,4 +290,22 @@ footer span {
     .random-information h2 {
         font-size: 22px;
     }
+}
+
+
+.call-action button:hover,
+.call-action button:active,
+.call-action button:focus{
+    background-color: white;
+    color: #3b82f6;
+    border-color: #3b82f6;
+    transition: all 1s;
+
+}
+
+.part-1 button:hover {
+    background-color: white;
+    color: #3b82f6;
+    border-color: #3b82f6;
+    transition: all 1s;
 }
